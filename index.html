@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <script defer src="countdown.js"></script>
+
+        <title>Frontend Mentor | Launch countdown timer</title>
+    </head>
+    <body>
+        <main class="main">
+            <section class="main__content">
+                <h1 class="main__title">How many days until the end of the month?</h1>
+
+                <section class="main__countdown">
+                    <div class="counter" id="counter-days" data-digit-start="0" data-digit-end="0">
+                        <div class="counter__card" data-digit-start="0" data-digit-end="0"></div>
+                        <div class="counter__separator"><span class="counter__border"></span></div>
+                        <h3 class="counter__text">DAYS</h3>
+                    </div>
+
+                    <div class="counter" id="counter-hours" data-digit-start="0" data-digit-end="0">
+                        <div class="counter__card" data-digit-start="0" data-digit-end="0"></div>
+                        <div class="counter__separator"><span class="counter__border"></span></div>
+                        <h3 class="counter__text">HOURS</h3>
+                    </div>
+
+                    <div class="counter" id="counter-minutes" data-digit-start="0" data-digit-end="0">
+                        <div class="counter__card" data-digit-start="0" data-digit-end="0"></div>
+                        <div class="counter__separator"><span class="counter__border"></span></div>
+                        <h3 class="counter__text">MINUTES</h3>
+                    </div>
+
+                    <div class="counter" id="counter-seconds" data-digit-start="0" data-digit-end="0">
+                        <div class="counter__card" data-digit-start="0" data-digit-end="0"></div>
+                        <div class="counter__separator"><span class="counter__border"></span></div>
+                        <h3 class="counter__text">SECONDS</h3>
+                    </div>
+                </section>
+            </section>
+
+            <section class="main__social">
+                <a class="link" href="#"><i class="fa-brands fa-square-facebook link__icon"></i></a>
+                <a class="link" href="#"><i class="fa-brands fa-pinterest link__icon"></i></a>
+                <a class="link" href="#"><i class="fa-brands fa-instagram link__icon"></i></a>
+            </section>
+        </main>
+    </body>
+</html>
